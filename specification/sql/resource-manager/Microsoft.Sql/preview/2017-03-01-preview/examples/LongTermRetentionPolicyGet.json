@@ -4,7 +4,6 @@
         "resourceGroupName": "resourceGroup",
         "serverName": "testserver",
         "databaseName": "testDatabase",
-        "policyName": "Default",
         "api-version": "2017-03-01"
     },
     "responses": {
@@ -17,7 +16,7 @@
                     "weeklyRetention": "P1M",
                     "monthlyRetention": "P1Y",
                     "yearlyRetention": "P5Y",
-                    "weekOfYear": 5
+                    "weekOfYear": "5"
                 }
             }
         }
